@@ -9,9 +9,9 @@ class Locators:
     sauces_span = By.XPATH, './/span[text() = "Соусы"]'
     fill_span = By.XPATH, './/span[text() = "Начинки"]'
     buns_span = By.XPATH, './/span[text() = "Булки"]'
-    BREAD_LIST = (By.XPATH, "//h2[contains(text(),'Булки')]")
-    SAUCE_LIST = (By.XPATH, "//h2[contains(text(),'Соусы')]")
-    FILLING_LIST = (By.XPATH, "//h2[contains(text(),'Начинки')]")
+    bread_list = (By.XPATH, "//h2[contains(text(),'Булки')]")
+    sauce_list = (By.XPATH, "//h2[contains(text(),'Соусы')]")
+    filling_list = (By.XPATH, "//h2[contains(text(),'Начинки')]")
     active_div_in_constructor = By.XPATH, './/div[contains(@class, "current")]/span'
 
     # Локаторы для хедера
